@@ -1,0 +1,43 @@
+body{
+background-color:none;
+color: beige;
+}
+.container{
+background-color: black;
+color: blue;
+max-height: 20px;
+margin: 30px;
+box-sizing: content-box;
+
+}
+h1{
+color: rgb(15, 15, 14);
+}
+input[type="text"]{
+width: calc(100%-80px);
+margin: 10px;
+box-sizing: content-box;
+background-origin: padding-box;
+border-width: 100;
+border-radius: 20px;
+}
+button{
+color: blue;
+background:none
+cursor: pointer;
+margin: 10px;
+
+
+}
+button:hover{
+color: whitesmoke;
+background: none;
+border-radius: 20px;
+}
+li{
+margin-bottom: 10px;
+}
+.delete{
+    color: antiquewhite;
+    cursor: pointer;
+}
